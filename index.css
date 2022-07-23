@@ -55,10 +55,10 @@ body {
   --offgrey: #edeef7;
 
   /* Theme Colors */
-  --primaryred: #d5a43e;
-  --primaryblue: #399cff;
-  --primarygreen: #d5a43e;
-  --primaryyellow: #399cff;
+  --primaryred: #00edff;
+  --primaryblue: #434343;
+  --primarygreen: #00edff;
+  --primaryyellow: #434343;
 
   /* Default Fonts */
   --mainfont: "Montserrat", sans-serif;
@@ -126,9 +126,11 @@ div.linktree .heading {
 }
 
 div.linktree .heading img {
-  margin: auto;
-  width: 12rem;
+  margin: 0.1rem;
+  width: 14rem;
   height: auto;
+  /* border: 5px solid #ffffff;
+  border-radius: 50%; */
 }
 
 div.linktree .heading h2 {
@@ -136,12 +138,41 @@ div.linktree .heading h2 {
   font-size: 4rem;
   font-weight: 700;
   font-family: var(--mainfont);
-  color: var(--darkwhite);
+  color: #00edff;
   text-align: center;
   letter-spacing: 2px;
 }
 
+* { 
+  margin: 0.5rem auto;
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-family: var(--textfont);
+  color: #00edff;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+/* .typewriter h2 {
+  overflow: hidden;
+  border-right: 10 solid #00edff;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.1em;
+  font-weight: italic;
+  animation: typing 5s steps(40, end), blink-caret .75s step-end infinite;
+  animation-iteration-count: infinite;
+} */
 div.linktree .heading p {
+  /* overflow: hidden;
+  border-right: 10 solid #00edff;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.1em;
+  font-weight: italic;
+  animation: typing 5s steps(40, end), blink-caret .75s step-end infinite;
+  animation-iteration-count: infinite; */
+
   margin: 0.5rem auto;
   font-size: 2.5rem;
   font-weight: 400;
@@ -149,6 +180,9 @@ div.linktree .heading p {
   color: var(--offgrey);
   text-align: center;
   letter-spacing: 0.5px;
+  overflow: hidden;
+  animation: typing 5s steps(40, end), blink-caret .75s step-end infinite;
+  animation-iteration-count: infinite;
 }
 
 /* **************************** Lintree Handles **************************** */
