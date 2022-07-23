@@ -148,7 +148,7 @@ div.linktree .heading h2 {
   font-size: 2.5rem;
   font-weight: 400;
   font-family: var(--textfont);
-  color: #00edff;
+  color: var(--offgrey);
   text-align: center;
   letter-spacing: 0.5px;
   text-decoration: none;
