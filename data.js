@@ -54,7 +54,7 @@ let linktreeData = [
     id: 7,
     handleName: "Twitter",
     handleText: "Follow us on Twitter",
-    handleLink: "https://twitter.com/raferensi",
+    handleLink: "",
     imgSrc: "./assets/twitter.svg",
     imgAlt: "Facebook",
   },
