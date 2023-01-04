@@ -177,7 +177,7 @@ div.linktree .heading p {
   font-size: 2.5rem;
   font-weight: 400;
   font-family: var(--textfont);
-  color: var(--offgrey);
+  color: #00edff;
   text-align: center;
   letter-spacing: 0.5px;
   overflow: hidden;
